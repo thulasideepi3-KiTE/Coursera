@@ -1,1 +1,31 @@
 /* Add Author and Project Details here */
+Week 1 Application Assignment – Statistical Analysis in C
+
+Author: S  DEEPAVARTHINI
+Date: August 30, 2025  
+Course: Introduction to Embedded Systems – Coursera  
+Assignment: C1M1 – Statistical Analysis
+
+  Project Description
+This project performs statistical analysis on a dataset of unsigned characters. It calculates and displays the minimum, maximum, mean, and median values. The dataset is also sorted from largest to smallest, and all results are printed to the command line.
+
+  Files Included
+- stats.c: Contains all function implementations.
+- stats.h: Header file with function declarations and documentation.
+- README.md: Project overview and usage instructions.
+
+  Functions Implemented
+- main()
+- print_statistics()
+- print_array()
+- find_median()
+- find_mean()
+- find_maximum()
+- find_minimum()
+- sort_array()
+
+  How to Compile and Run
+To compile and run the program, use the following commands:
+bash
+gcc stats.c -o stats
+./stats
